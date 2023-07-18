@@ -33,7 +33,7 @@ input{
     border: none;
     border-radius: 30px;
     color: rgb(114, 16, 206);
-    font-size: 50px;
+    font-size: 40px;
     text-align: end;
     margin: auto;
     margin-top: 40px;
@@ -65,4 +65,9 @@ button{
 }
 input::placeholder{
     color: blueviolet;
+}
+button:hover{
+    transform:scale(1.08);
+
+
 }
